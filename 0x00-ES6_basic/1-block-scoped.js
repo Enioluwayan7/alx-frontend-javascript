@@ -3,7 +3,8 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    const task = true; // Use const or let to create block-scoped variables
+    // Use const or let to create block-scoped variables
+    const task = true;
     const task2 = false;
   }
 
